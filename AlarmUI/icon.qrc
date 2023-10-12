@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="nextbutton">
+    <file>Images/right-arrow.png</file>
+  </qresource>
+  <qresource prefix="Previousbutton">
+    <file>Images/left-arrow.png</file>
+  </qresource>
+</RCC>
