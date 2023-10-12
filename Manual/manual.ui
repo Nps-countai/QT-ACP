@@ -159,7 +159,7 @@ p, li { white-space: pre-wrap; }
            <number>10</number>
           </property>
           <item row="1" column="2">
-           <widget class="QPushButton" name="bMRetBReverse">
+           <widget class="QPushButton" name="bMRetBReverse_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -188,7 +188,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QPushButton" name="bMRetAForward">
+           <widget class="QPushButton" name="bMRetAForward_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -313,7 +313,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="2" column="2">
-           <widget class="QPushButton" name="bMConeTiltingPistonReverse">
+           <widget class="QPushButton" name="bMConeTiltingPistonReverse_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -374,7 +374,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QPushButton" name="bMConeTiltingPistonForward">
+           <widget class="QPushButton" name="bMConeTiltingPistonForward_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -499,7 +499,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="0" column="2">
-           <widget class="QPushButton" name="bMRetAReverse">
+           <widget class="QPushButton" name="bMRetAReverse_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -528,7 +528,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QPushButton" name="bMCTP_ConeHolderPiston">
+           <widget class="QPushButton" name="bMCTP_ConeHolderPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -589,7 +589,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="5" column="1">
-           <widget class="QPushButton" name="bMForwardPiston">
+           <widget class="QPushButton" name="bMForwardPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -650,7 +650,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QPushButton" name="bMConeFeedingPiston">
+           <widget class="QPushButton" name="bMConeFeedingPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -746,7 +746,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="6" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor">
+           <widget class="QPushButton" name="bMFilmRollerMotor_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -775,7 +775,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QPushButton" name="bMRetBForward">
+           <widget class="QPushButton" name="bMRetBForward_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -836,7 +836,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="7" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_2">
+           <widget class="QPushButton" name="bMFeedingConveyorMotor_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -865,7 +865,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="8" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_7">
+           <widget class="QPushButton" name="bMTransferConveyorMotor_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -894,7 +894,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="9" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_6">
+           <widget class="QPushButton" name="bMWrappingConveyorMotor_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -923,7 +923,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="10" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_5">
+           <widget class="QPushButton" name="bMExitConveyorMotor_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -952,7 +952,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="11" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_4">
+           <widget class="QPushButton" name="bMBagRowHolderPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -988,7 +988,7 @@ p, li { white-space: pre-wrap; }
            <number>10</number>
           </property>
           <item row="4" column="1">
-           <widget class="QPushButton" name="bMSealingTopPiston">
+           <widget class="QPushButton" name="bMColumnStopperPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1049,7 +1049,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="10" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_9">
+           <widget class="QPushButton" name="bMBagUpDown180Piston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1078,7 +1078,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="5" column="1">
-           <widget class="QPushButton" name="bMSealingBottomPiston">
+           <widget class="QPushButton" name="bMColumnReversePiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1107,7 +1107,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="7" column="3">
-           <widget class="QPushButton" name="bMFilmRollerMotor_16">
+           <widget class="QPushButton" name="bMBagPusher100ForwardPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1232,7 +1232,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QPushButton" name="bMTransferConveyorMotor">
+           <widget class="QPushButton" name="bMSealingBottomPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1261,7 +1261,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="9" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_10">
+           <widget class="QPushButton" name="bMBag50UpPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1322,7 +1322,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="7" column="2">
-           <widget class="QPushButton" name="bMFilmRollerMotor_15">
+           <widget class="QPushButton" name="bMBagPusherReversePiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1479,7 +1479,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QPushButton" name="bMExitConveyorMotor">
+           <widget class="QPushButton" name="bMConePusher2Piston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1508,7 +1508,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QPushButton" name="bMWrappingConveyorMotor">
+           <widget class="QPushButton" name="bMConePusher1Piston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1537,7 +1537,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="11" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_8">
+           <widget class="QPushButton" name="bMBagTiltingForwardPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1566,7 +1566,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="8" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_11">
+           <widget class="QPushButton" name="bMBagHolderPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1595,7 +1595,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="11" column="2">
-           <widget class="QPushButton" name="bMFilmRollerMotor_13">
+           <widget class="QPushButton" name="bMBagTiltingReversePiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1656,7 +1656,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QPushButton" name="bMFeedingConveyorMotor">
+           <widget class="QPushButton" name="bMSealingTopPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1749,7 +1749,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="6" column="1">
-           <widget class="QPushButton" name="bMExitPiston">
+           <widget class="QPushButton" name="bMSeparatorPlatePiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1778,7 +1778,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="9" column="2">
-           <widget class="QPushButton" name="bMFilmRollerMotor_14">
+           <widget class="QPushButton" name="bMBag50DownPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
@@ -1807,7 +1807,7 @@ p, li { white-space: pre-wrap; }
            </widget>
           </item>
           <item row="7" column="1">
-           <widget class="QPushButton" name="bMFilmRollerMotor_12">
+           <widget class="QPushButton" name="bMBagPusherForwardPiston_Triggered">
             <property name="minimumSize">
              <size>
               <width>150</width>
