@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="background">
+    <file>Overview.svg</file>
+  </qresource>
+  <qresource prefix="wrapping">
+    <file>wrappingBoothError.png</file>
+    <file>wrappingBoothOn.png</file>
+    <file>wrappingBooth.png</file>
+  </qresource>
+  <qresource prefix="pistonColor">
+    <file>pistionTH.png</file>
+    <file>pistionTV.png</file>
+    <file>pistionV.png</file>
+    <file>pistionV1.png</file>
+  </qresource>
+  <qresource prefix="arrowTriangle">
+    <file>downarrow.png</file>
+    <file>rightarrow.png</file>
+    <file>uparrow.png</file>
+  </qresource>
+  <qresource prefix="recSwitch">
+    <file>greenRec2.png</file>
+    <file>redRec2.png</file>
+    <file>greenRec.png</file>
+    <file>redRec.png</file>
+  </qresource>
+  <qresource prefix="magneticSwitch">
+    <file>greenSquareButton.png</file>
+    <file>redSquareButton.png</file>
+  </qresource>
+  <qresource prefix="buttonImage">
+    <file>greenButton.png</file>
+    <file>redButton.png</file>
+  </qresource>
+</RCC>
