@@ -34,7 +34,7 @@ background-position:left top;
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QPushButton" name="bICFCConeStopSensor">
+      <widget class="QPushButton" name="bIConePusher1SafetySensor">
        <property name="geometry">
         <rect>
          <x>350</x>
@@ -62,7 +62,7 @@ background-position:left top;
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQConeFeedingPiston">
+      <widget class="QPushButton" name="bQForwardPiston">
        <property name="geometry">
         <rect>
          <x>1212</x>
@@ -106,7 +106,7 @@ background-position:left top;
          <number>25</number>
         </property>
         <item>
-         <widget class="QPushButton" name="bIRetB_ConeDetection1">
+         <widget class="QPushButton" name="bIExitConveyorExit">
           <property name="text">
            <string/>
           </property>
@@ -128,7 +128,7 @@ background-position:left top;
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIRetB_ConeDetection2">
+         <widget class="QPushButton" name="bIExitConveyorEnd">
           <property name="text">
            <string/>
           </property>
@@ -150,7 +150,7 @@ background-position:left top;
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIRetB_ConeDetection3">
+         <widget class="QPushButton" name="bIExitConveyorMiddle">
           <property name="text">
            <string/>
           </property>
@@ -172,7 +172,7 @@ background-position:left top;
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIRetB_ConeDetection4">
+         <widget class="QPushButton" name="bIExitConveyorHome">
           <property name="text">
            <string/>
           </property>
@@ -195,7 +195,7 @@ background-position:left top;
         </item>
        </layout>
       </widget>
-      <widget class="QPushButton" name="bQFeedingConveyorMotor">
+      <widget class="QPushButton" name="bQExitConveyorMotor">
        <property name="geometry">
         <rect>
          <x>130</x>
@@ -240,7 +240,7 @@ background-position:left top;
       <widget class="QWidget" name="layoutWidget_2">
        <property name="geometry">
         <rect>
-         <x>823</x>
+         <x>811</x>
          <y>260</y>
          <width>161</width>
          <height>28</height>
@@ -251,7 +251,7 @@ background-position:left top;
          <number>25</number>
         </property>
         <item>
-         <widget class="QPushButton" name="bIRetA_ConeDetection1">
+         <widget class="QPushButton" name="bIWrappingConveyorExit">
           <property name="acceptDrops">
            <bool>false</bool>
           </property>
@@ -276,7 +276,7 @@ background-position:left top;
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIRetA_ConeDetection2">
+         <widget class="QPushButton" name="bIWrappingConveyorEnd">
           <property name="text">
            <string/>
           </property>
@@ -298,7 +298,7 @@ background-position:left top;
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIRetA_ConeDetection3">
+         <widget class="QPushButton" name="bIWrappingConveyorMiddle">
           <property name="text">
            <string/>
           </property>
@@ -320,7 +320,7 @@ background-position:left top;
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIRetA_ConeDetection4">
+         <widget class="QPushButton" name="bIWrappingConveyorHome">
           <property name="text">
            <string/>
           </property>
@@ -343,7 +343,7 @@ background-position:left top;
         </item>
        </layout>
       </widget>
-      <widget class="QPushButton" name="bIConeFeedingPistonEnd">
+      <widget class="QPushButton" name="bIForwardPistonHome">
        <property name="geometry">
         <rect>
          <x>1211</x>
@@ -385,7 +385,7 @@ background-position:left top;
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="Ret_A_Wt">
+      <widget class="QLabel" name="Ret_B_Wt">
        <property name="geometry">
         <rect>
          <x>989</x>
@@ -415,7 +415,7 @@ border: 2px solid black</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeFeedingPistonHome">
+      <widget class="QPushButton" name="bIForwardPistonEnd">
        <property name="geometry">
         <rect>
          <x>1211</x>
@@ -457,7 +457,7 @@ border: 2px solid black</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeTiltingPistonHome">
+      <widget class="QPushButton" name="bIConeTiltingPistonEnd">
        <property name="geometry">
         <rect>
          <x>1191</x>
@@ -526,7 +526,7 @@ border: 2px solid black</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeTiltingPistonEnd">
+      <widget class="QPushButton" name="bIConeTiltingPistonHome">
        <property name="geometry">
         <rect>
          <x>1191</x>
@@ -573,7 +573,7 @@ border: 2px solid black</string>
         <rect>
          <x>1010</x>
          <y>260</y>
-         <width>241</width>
+         <width>228</width>
          <height>28</height>
         </rect>
        </property>
@@ -582,29 +582,7 @@ border: 2px solid black</string>
          <number>35</number>
         </property>
         <item>
-         <widget class="QPushButton" name="bITransferConveyorHome">
-          <property name="text">
-           <string/>
-          </property>
-          <property name="icon">
-           <iconset resource="graphic.qrc">
-            <normaloff>:/buttonImage/greenButton.png</normaloff>
-            <disabledoff>:/buttonImage/redButton.png</disabledoff>
-            <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>20</width>
-            <height>20</height>
-           </size>
-          </property>
-          <property name="flat">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="bITransferConveyorMiddle">
+         <widget class="QPushButton" name="bITransferConveyorExit">
           <property name="text">
            <string/>
           </property>
@@ -648,7 +626,29 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bITransferConveyorExit">
+         <widget class="QPushButton" name="bITransferConveyorMiddle">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="graphic.qrc">
+            <normaloff>:/buttonImage/greenButton.png</normaloff>
+            <disabledoff>:/buttonImage/redButton.png</disabledoff>
+            <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="bITransferConveyorHome">
           <property name="text">
            <string/>
           </property>
@@ -931,8 +931,8 @@ border: 2px solid black</string>
         <rect>
          <x>1480</x>
          <y>540</y>
-         <width>151</width>
-         <height>144</height>
+         <width>161</width>
+         <height>151</height>
         </rect>
        </property>
        <property name="font">
@@ -1144,9 +1144,9 @@ border: 2px solid black</string>
        <property name="geometry">
         <rect>
          <x>1480</x>
-         <y>320</y>
-         <width>282</width>
-         <height>208</height>
+         <y>270</y>
+         <width>301</width>
+         <height>251</height>
         </rect>
        </property>
        <property name="font">
@@ -1171,6 +1171,356 @@ border-radius: 10px;</string>
         <property name="topMargin">
          <number>10</number>
         </property>
+        <item row="4" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="QPushButton" name="bIPausePB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIPausePB_Label">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Pause</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="4" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout_21">
+          <item>
+           <widget class="QPushButton" name="bIPressureSwitch">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIPressureSwitch_Label">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>FRL</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="7" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_34">
+          <item>
+           <widget class="QPushButton" name="bIBagResetPB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIManualSealingPB_Label_3">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Bag Reset</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_20">
+          <item>
+           <widget class="QPushButton" name="bIResetPB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIResetPB_Label">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Reset</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="7" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout_35">
+          <item>
+           <widget class="QPushButton" name="bIBagEmergencyPB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIBag_2">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Bag Emg</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
         <item row="5" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_11">
           <item>
@@ -1241,76 +1591,6 @@ border-radius: 10px;</string>
           </item>
          </layout>
         </item>
-        <item row="1" column="1">
-         <layout class="QHBoxLayout" name="horizontalLayout_14">
-          <item>
-           <widget class="QPushButton" name="bIStopPB">
-            <property name="minimumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-              <kerning>true</kerning>
-             </font>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="toolTipDuration">
-             <number>4</number>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset resource="graphic.qrc">
-              <normaloff>:/buttonImage/greenButton.png</normaloff>
-              <disabledoff>:/buttonImage/redButton.png</disabledoff>
-              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="flat">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="bIStopPB_Label">
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>MC Stop</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
         <item row="1" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_16">
           <item>
@@ -1373,6 +1653,216 @@ border-radius: 10px;</string>
             </property>
             <property name="text">
              <string>MC Start</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QPushButton" name="bIAutoManualSwitch">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIAutoManualSwitch_Label">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Auto/Manual</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="5" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout_33">
+          <item>
+           <widget class="QPushButton" name="bIRetB_StartPB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIRetB_StartPB_Label_3">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Ret B Start</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="6" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <widget class="QPushButton" name="bIManualSealingPB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIManualSealingPB_Label">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Manual Sealing</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1520,290 +2010,10 @@ border-radius: 10px;</string>
           </item>
          </layout>
         </item>
-        <item row="2" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout_20">
-          <item>
-           <widget class="QPushButton" name="bIResetPB">
-            <property name="minimumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-              <kerning>true</kerning>
-             </font>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="toolTipDuration">
-             <number>4</number>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset resource="graphic.qrc">
-              <normaloff>:/buttonImage/greenButton.png</normaloff>
-              <disabledoff>:/buttonImage/redButton.png</disabledoff>
-              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="flat">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="bIResetPB_Label">
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>Reset</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item row="4" column="1">
-         <layout class="QHBoxLayout" name="horizontalLayout_21">
-          <item>
-           <widget class="QPushButton" name="bIPressureSwitch">
-            <property name="minimumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-              <kerning>true</kerning>
-             </font>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="toolTipDuration">
-             <number>4</number>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset resource="graphic.qrc">
-              <normaloff>:/buttonImage/greenButton.png</normaloff>
-              <disabledoff>:/buttonImage/redButton.png</disabledoff>
-              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="flat">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="bIPressureSwitch_Label">
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>FRL</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item row="3" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout_9">
-          <item>
-           <widget class="QPushButton" name="bIAutoManualSwitch">
-            <property name="minimumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-              <kerning>true</kerning>
-             </font>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="toolTipDuration">
-             <number>4</number>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset resource="graphic.qrc">
-              <normaloff>:/buttonImage/greenButton.png</normaloff>
-              <disabledoff>:/buttonImage/redButton.png</disabledoff>
-              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="flat">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="bIAutoManualSwitch_Label">
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>Auto/Manual</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item row="4" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout_18">
-          <item>
-           <widget class="QPushButton" name="bIPausePB">
-            <property name="minimumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <pointsize>10</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-              <kerning>true</kerning>
-             </font>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="toolTipDuration">
-             <number>4</number>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="icon">
-             <iconset resource="graphic.qrc">
-              <normaloff>:/buttonImage/greenButton.png</normaloff>
-              <disabledoff>:/buttonImage/redButton.png</disabledoff>
-              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>20</width>
-              <height>20</height>
-             </size>
-            </property>
-            <property name="flat">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="bIPausePB_Label">
-            <property name="font">
-             <font>
-              <family>Arial</family>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>Pause</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item row="5" column="1">
+        <item row="6" column="1">
          <layout class="QHBoxLayout" name="horizontalLayout_12">
           <item>
-           <widget class="QPushButton" name="bIRetB_StartPB">
+           <widget class="QPushButton" name="bIBagHolderOn">
             <property name="minimumSize">
              <size>
               <width>20</width>
@@ -1852,7 +2062,7 @@ border-radius: 10px;</string>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="bIRetB_StartPB_Label">
+           <widget class="QLabel" name="bIBag">
             <property name="font">
              <font>
               <family>Arial</family>
@@ -1861,7 +2071,7 @@ border-radius: 10px;</string>
              </font>
             </property>
             <property name="text">
-             <string>Ret B Start</string>
+             <string>Bag HolderON</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1870,10 +2080,10 @@ border-radius: 10px;</string>
           </item>
          </layout>
         </item>
-        <item row="6" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout_17">
+        <item row="1" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
           <item>
-           <widget class="QPushButton" name="bIManualSealingPB">
+           <widget class="QPushButton" name="bIStopPB">
             <property name="minimumSize">
              <size>
               <width>20</width>
@@ -1922,7 +2132,7 @@ border-radius: 10px;</string>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="bIManualSealingPB_Label">
+           <widget class="QLabel" name="bIStopPB_Label">
             <property name="font">
              <font>
               <family>Arial</family>
@@ -1931,7 +2141,77 @@ border-radius: 10px;</string>
              </font>
             </property>
             <property name="text">
-             <string>Manual Sealing</string>
+             <string>MC Stop</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="8" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_36">
+          <item>
+           <widget class="QPushButton" name="bIWrappingEmergencyPB">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTipDuration">
+             <number>4</number>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="graphic.qrc">
+              <normaloff>:/buttonImage/greenButton.png</normaloff>
+              <disabledoff>:/buttonImage/redButton.png</disabledoff>
+              <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bIManualSealingPB_Label_4">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Wrapping Emg</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1942,7 +2222,7 @@ border-radius: 10px;</string>
         </item>
        </layout>
       </widget>
-      <widget class="QPushButton" name="bQForwardPiston_2">
+      <widget class="QPushButton" name="bQConeFeedingPiston">
        <property name="geometry">
         <rect>
          <x>1358</x>
@@ -1969,7 +2249,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIForwardPistonEnd_2">
+      <widget class="QPushButton" name="bIConeFeedingPistonHome">
        <property name="geometry">
         <rect>
          <x>1403</x>
@@ -2011,7 +2291,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIForwardPistonHome_2">
+      <widget class="QPushButton" name="bIConeFeedingPistonEnd">
        <property name="geometry">
         <rect>
          <x>1337</x>
@@ -2053,7 +2333,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonEnd_2">
+      <widget class="QPushButton" name="bISealingBottomPistonHome">
        <property name="geometry">
         <rect>
          <x>696</x>
@@ -2095,7 +2375,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonHome_2">
+      <widget class="QPushButton" name="bISealingBottomPistonEnd">
        <property name="geometry">
         <rect>
          <x>696</x>
@@ -2137,7 +2417,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQSealingTopPiston_2">
+      <widget class="QPushButton" name="bQSealingBottomPiston">
        <property name="geometry">
         <rect>
          <x>696</x>
@@ -2167,7 +2447,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonEnd_3">
+      <widget class="QPushButton" name="bISeperatorPlatePistonEnd">
        <property name="geometry">
         <rect>
          <x>169</x>
@@ -2209,7 +2489,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonHome_3">
+      <widget class="QPushButton" name="bISeperatorPlatePistonHome">
        <property name="geometry">
         <rect>
          <x>169</x>
@@ -2251,7 +2531,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQSealingTopPiston_3">
+      <widget class="QPushButton" name="bQSeparatorPlatePiston">
        <property name="geometry">
         <rect>
          <x>169</x>
@@ -2297,7 +2577,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonEnd_4">
+      <widget class="QPushButton" name="bIConePusher1PistonEnd">
        <property name="geometry">
         <rect>
          <x>207</x>
@@ -2339,7 +2619,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQSealingTopPiston_4">
+      <widget class="QPushButton" name="bQConePusher1Piston">
        <property name="geometry">
         <rect>
          <x>207</x>
@@ -2369,7 +2649,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonHome_4">
+      <widget class="QPushButton" name="bIConePusher1PistonHome">
        <property name="geometry">
         <rect>
          <x>207</x>
@@ -2411,7 +2691,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonEnd_5">
+      <widget class="QPushButton" name="bIBagPusherPistonEnd">
        <property name="geometry">
         <rect>
          <x>250</x>
@@ -2453,7 +2733,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQSealingTopPiston_5">
+      <widget class="QPushButton" name="bQBagPusherForwardPiston">
        <property name="geometry">
         <rect>
          <x>250</x>
@@ -2483,7 +2763,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingTopPistonHome_5">
+      <widget class="QPushButton" name="bIBagPusherPistonHome">
        <property name="geometry">
         <rect>
          <x>250</x>
@@ -2557,7 +2837,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQSeparatorplatePiston_2">
+      <widget class="QPushButton" name="bQConePusher2Piston">
        <property name="geometry">
         <rect>
          <x>236</x>
@@ -2606,7 +2886,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQCTP_ConeHolderPiston_2">
+      <widget class="QPushButton" name="bQColumnReversePiston">
        <property name="geometry">
         <rect>
          <x>232</x>
@@ -2633,7 +2913,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderHome_2">
+      <widget class="QPushButton" name="bIColumnReversePistonEnd">
        <property name="geometry">
         <rect>
          <x>213</x>
@@ -2675,7 +2955,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderEnd_2">
+      <widget class="QPushButton" name="bIColumnReversePistonHome">
        <property name="geometry">
         <rect>
          <x>279</x>
@@ -2717,7 +2997,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderHome_3">
+      <widget class="QPushButton" name="bIColumnStopperPistonEnd">
        <property name="geometry">
         <rect>
          <x>167</x>
@@ -2759,7 +3039,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderEnd_3">
+      <widget class="QPushButton" name="bIColumnStopperPistonHome">
        <property name="geometry">
         <rect>
          <x>318</x>
@@ -2801,7 +3081,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQCTP_ConeHolderPiston_3">
+      <widget class="QPushButton" name="bQColumnStopperPiston">
        <property name="geometry">
         <rect>
          <x>203</x>
@@ -2860,7 +3140,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQBagHolderpiston_1">
+      <widget class="QPushButton" name="bIBagHolderOn_2">
        <property name="geometry">
         <rect>
          <x>186</x>
@@ -2887,7 +3167,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQBagHolderpiston_2">
+      <widget class="QPushButton" name="bIBagHolderOn_1">
        <property name="geometry">
         <rect>
          <x>320</x>
@@ -2930,7 +3210,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderEnd_5">
+      <widget class="QPushButton" name="bIBagUpDown50PistonHome">
        <property name="geometry">
         <rect>
          <x>289</x>
@@ -2972,7 +3252,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQCTP_ConeHolderPiston_5">
+      <widget class="QPushButton" name="bQBag50UpPiston">
        <property name="geometry">
         <rect>
          <x>238</x>
@@ -2999,7 +3279,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderHome_5">
+      <widget class="QPushButton" name="bIBagUpDown50PistonEnd">
        <property name="geometry">
         <rect>
          <x>205</x>
@@ -3041,7 +3321,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderEnd_11">
+      <widget class="QPushButton" name="bIBagUpDown180PistonHome">
        <property name="geometry">
         <rect>
          <x>301</x>
@@ -3083,7 +3363,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQCTP_ConeHolderPiston_11">
+      <widget class="QPushButton" name="bQBagUpDown180Piston">
        <property name="geometry">
         <rect>
          <x>228</x>
@@ -3110,7 +3390,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bITiltingConeHolderHome_11">
+      <widget class="QPushButton" name="bIBagUpDown180PistonEnd">
        <property name="geometry">
         <rect>
          <x>167</x>
@@ -3168,7 +3448,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bQSealingBottomPiston_3">
+      <widget class="QPushButton" name="bQBagTiltingForwardPiston">
        <property name="geometry">
         <rect>
          <x>251</x>
@@ -3198,7 +3478,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingBottomPistonHome_3">
+      <widget class="QPushButton" name="bIBagTiltingPistonEnd">
        <property name="geometry">
         <rect>
          <x>251</x>
@@ -3240,7 +3520,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bISealingBottomPistonEnd_3">
+      <widget class="QPushButton" name="bIBagTiltingPistonHome">
        <property name="geometry">
         <rect>
          <x>251</x>
@@ -3298,7 +3578,7 @@ border-radius: 10px;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="bASealingTrigged_5">
+      <widget class="QPushButton" name="bQBagRowHolderPiston">
        <property name="geometry">
         <rect>
          <x>196</x>
@@ -3328,7 +3608,7 @@ border-radius: 10px;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="Ret_A_Wt_3">
+      <widget class="QLabel" name="Ret_A_Wt">
        <property name="geometry">
         <rect>
          <x>990</x>
@@ -3358,7 +3638,7 @@ border: 2px solid black</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeCountsensor_2">
+      <widget class="QPushButton" name="bQRetB_WeightOk">
        <property name="geometry">
         <rect>
          <x>1010</x>
@@ -3386,7 +3666,7 @@ border: 2px solid black</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeCountsensor_3">
+      <widget class="QPushButton" name="bQRetA_WeightOk">
        <property name="geometry">
         <rect>
          <x>1010</x>
@@ -3414,7 +3694,7 @@ border: 2px solid black</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeCountLimitSwitch_2">
+      <widget class="QPushButton" name="bQFeedingConveyorMotor">
        <property name="geometry">
         <rect>
          <x>1258</x>
@@ -3467,7 +3747,7 @@ border: 2px solid black</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_4">
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorEnd_3">
+         <widget class="QPushButton" name="bIRetB_ConeDetection4_3">
           <property name="text">
            <string/>
           </property>
@@ -3489,7 +3769,7 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorMiddle_3">
+         <widget class="QPushButton" name="bIRetB_ConeDetection3_3">
           <property name="text">
            <string/>
           </property>
@@ -3511,7 +3791,7 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorExit_3">
+         <widget class="QPushButton" name="bIRetB_ConeDetection2_3">
           <property name="text">
            <string/>
           </property>
@@ -3533,7 +3813,7 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorHome_3">
+         <widget class="QPushButton" name="bIRetB_ConeDetection1_3">
           <property name="text">
            <string/>
           </property>
@@ -3556,7 +3836,7 @@ border: 2px solid black</string>
         </item>
        </layout>
       </widget>
-      <widget class="QPushButton" name="bIConeCountLimitSwitch_3">
+      <widget class="QPushButton" name="bIRetA_ConeCrossLimitSwitch">
        <property name="geometry">
         <rect>
          <x>1297</x>
@@ -3598,7 +3878,7 @@ border: 2px solid black</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="bIConeCountLimitSwitch_4">
+      <widget class="QPushButton" name="bIRetB_ConeCrossLimitSwitch">
        <property name="geometry">
         <rect>
          <x>1296</x>
@@ -3704,6 +3984,557 @@ border: 2px solid black</string>
         <string/>
        </property>
       </widget>
+      <widget class="QPushButton" name="bICFCConeStopSensor_3">
+       <property name="geometry">
+        <rect>
+         <x>1312</x>
+         <y>380</y>
+         <width>21</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/buttonImage/greenButton.png</normaloff>
+         <disabledoff>:/buttonImage/redButton.png</disabledoff>
+         <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIConeOrientationTopLimitSwitch">
+       <property name="geometry">
+        <rect>
+         <x>1280</x>
+         <y>336</y>
+         <width>40</width>
+         <height>10</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/recSwitch/greenRec2.png</normaloff>
+         <disabledoff>:/recSwitch/redRec2.png</disabledoff>:/recSwitch/greenRec2.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>70</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIRetB_End">
+       <property name="geometry">
+        <rect>
+         <x>1220</x>
+         <y>540</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>12</width>
+         <height>12</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIRetB_Home">
+       <property name="geometry">
+        <rect>
+         <x>1100</x>
+         <y>540</y>
+         <width>24</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>12</width>
+         <height>12</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIRetB_Middle">
+       <property name="geometry">
+        <rect>
+         <x>1160</x>
+         <y>539</y>
+         <width>24</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>12</width>
+         <height>12</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIRetA_Home">
+       <property name="geometry">
+        <rect>
+         <x>1102</x>
+         <y>737</y>
+         <width>24</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>12</width>
+         <height>12</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIRetA_End">
+       <property name="geometry">
+        <rect>
+         <x>1222</x>
+         <y>737</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>12</width>
+         <height>12</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIRetA_Middle">
+       <property name="geometry">
+        <rect>
+         <x>1162</x>
+         <y>736</y>
+         <width>24</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>12</width>
+         <height>12</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIFilmTensionRodEnd">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>220</y>
+         <width>34</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/buttonImage/greenButton.png</normaloff>
+         <disabledoff>:/buttonImage/redButton.png</disabledoff>
+         <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIFilmTensionRodHome">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>220</y>
+         <width>34</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/buttonImage/greenButton.png</normaloff>
+         <disabledoff>:/buttonImage/redButton.png</disabledoff>
+         <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bASealingTrigged_1">
+       <property name="geometry">
+        <rect>
+         <x>725</x>
+         <y>261</y>
+         <width>16</width>
+         <height>74</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/pistonColor/pistionV.png</normaloff>
+         <disabledoff>:/pistonColor/pistionTV.png</disabledoff>:/pistonColor/pistionV.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>300</number>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bISealingSensor">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>402</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/buttonImage/greenButton.png</normaloff>
+         <disabledoff>:/buttonImage/redButton.png</disabledoff>
+         <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bQTransferConveyorMotor">
+       <property name="geometry">
+        <rect>
+         <x>1240</x>
+         <y>260</y>
+         <width>17</width>
+         <height>75</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bQWrappingConveyorMotor">
+       <property name="geometry">
+        <rect>
+         <x>980</x>
+         <y>260</y>
+         <width>17</width>
+         <height>75</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTipDuration">
+        <number>4</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/magneticSwitch/greenSquareButton.png</normaloff>
+         <disabledoff>:/magneticSwitch/redSquareButton.png</disabledoff>:/magneticSwitch/greenSquareButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bIBagEmptyCheck_Sensor">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>680</y>
+         <width>35</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="graphic.qrc">
+         <normaloff>:/buttonImage/greenButton.png</normaloff>
+         <disabledoff>:/buttonImage/redButton.png</disabledoff>
+         <disabledon>:/buttonImage/redButton.png</disabledon>:/buttonImage/greenButton.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
       <widget class="QWidget" name="">
        <property name="geometry">
         <rect>
@@ -3715,7 +4546,7 @@ border: 2px solid black</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorEnd">
+         <widget class="QPushButton" name="bIRetA_ConeDetection4">
           <property name="text">
            <string/>
           </property>
@@ -3737,7 +4568,7 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorMiddle">
+         <widget class="QPushButton" name="bIRetA_ConeDetection3">
           <property name="text">
            <string/>
           </property>
@@ -3759,7 +4590,7 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorExit">
+         <widget class="QPushButton" name="bIRetA_ConeDetection2">
           <property name="text">
            <string/>
           </property>
@@ -3781,7 +4612,7 @@ border: 2px solid black</string>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="bIWrappingConveyorHome">
+         <widget class="QPushButton" name="bIRetA_ConeDetection1">
           <property name="text">
            <string/>
           </property>
@@ -3817,17 +4648,17 @@ border: 2px solid black</string>
       <zorder>bAConePusher1SafetyError_5</zorder>
       <zorder>bAConePusher1SafetyError_6</zorder>
       <zorder>coneMissConeCount</zorder>
-      <zorder>bICFCConeStopSensor</zorder>
-      <zorder>bQConeFeedingPiston</zorder>
+      <zorder>bIConePusher1SafetySensor</zorder>
+      <zorder>bQForwardPiston</zorder>
       <zorder>layoutWidget</zorder>
-      <zorder>bQFeedingConveyorMotor</zorder>
+      <zorder>bQExitConveyorMotor</zorder>
       <zorder>layoutWidget_2</zorder>
-      <zorder>bIConeFeedingPistonEnd</zorder>
-      <zorder>Ret_A_Wt</zorder>
-      <zorder>bIConeFeedingPistonHome</zorder>
-      <zorder>bIConeTiltingPistonHome</zorder>
-      <zorder>bQConeTiltingPistonForward</zorder>
+      <zorder>bIForwardPistonHome</zorder>
+      <zorder>Ret_B_Wt</zorder>
+      <zorder>bIForwardPistonEnd</zorder>
       <zorder>bIConeTiltingPistonEnd</zorder>
+      <zorder>bQConeTiltingPistonForward</zorder>
+      <zorder>bIConeTiltingPistonHome</zorder>
       <zorder>layoutWidget_5</zorder>
       <zorder>layoutWidget_6</zorder>
       <zorder>bISealingTopPistonEnd</zorder>
@@ -3839,47 +4670,62 @@ border: 2px solid black</string>
       <zorder>bASealingTrigged_2</zorder>
       <zorder>label_group</zorder>
       <zorder>Input_group</zorder>
-      <zorder>bQForwardPiston_2</zorder>
-      <zorder>bIForwardPistonEnd_2</zorder>
-      <zorder>bIForwardPistonHome_2</zorder>
-      <zorder>bISealingTopPistonEnd_2</zorder>
-      <zorder>bISealingTopPistonHome_2</zorder>
-      <zorder>bQSealingTopPiston_2</zorder>
-      <zorder>bISealingTopPistonEnd_3</zorder>
-      <zorder>bISealingTopPistonHome_3</zorder>
-      <zorder>bQSealingTopPiston_3</zorder>
-      <zorder>bISealingTopPistonEnd_4</zorder>
-      <zorder>bQSealingTopPiston_4</zorder>
-      <zorder>bISealingTopPistonHome_4</zorder>
-      <zorder>bISealingTopPistonEnd_5</zorder>
-      <zorder>bQSealingTopPiston_5</zorder>
-      <zorder>bISealingTopPistonHome_5</zorder>
-      <zorder>bQSeparatorplatePiston_2</zorder>
-      <zorder>bQCTP_ConeHolderPiston_2</zorder>
-      <zorder>bITiltingConeHolderHome_2</zorder>
-      <zorder>bITiltingConeHolderEnd_2</zorder>
-      <zorder>bITiltingConeHolderHome_3</zorder>
-      <zorder>bITiltingConeHolderEnd_3</zorder>
-      <zorder>bQCTP_ConeHolderPiston_3</zorder>
-      <zorder>bQBagHolderpiston_1</zorder>
-      <zorder>bQBagHolderpiston_2</zorder>
-      <zorder>bITiltingConeHolderEnd_5</zorder>
-      <zorder>bQCTP_ConeHolderPiston_5</zorder>
-      <zorder>bITiltingConeHolderHome_5</zorder>
-      <zorder>bITiltingConeHolderEnd_11</zorder>
-      <zorder>bQCTP_ConeHolderPiston_11</zorder>
-      <zorder>bITiltingConeHolderHome_11</zorder>
-      <zorder>bQSealingBottomPiston_3</zorder>
-      <zorder>bISealingBottomPistonHome_3</zorder>
-      <zorder>bISealingBottomPistonEnd_3</zorder>
-      <zorder>bASealingTrigged_5</zorder>
-      <zorder>Ret_A_Wt_3</zorder>
-      <zorder>bIConeCountsensor_2</zorder>
-      <zorder>bIConeCountsensor_3</zorder>
-      <zorder>bIConeCountLimitSwitch_2</zorder>
+      <zorder>bQConeFeedingPiston</zorder>
+      <zorder>bIConeFeedingPistonHome</zorder>
+      <zorder>bIConeFeedingPistonEnd</zorder>
+      <zorder>bISealingBottomPistonHome</zorder>
+      <zorder>bISealingBottomPistonEnd</zorder>
+      <zorder>bQSealingBottomPiston</zorder>
+      <zorder>bISeperatorPlatePistonEnd</zorder>
+      <zorder>bISeperatorPlatePistonHome</zorder>
+      <zorder>bQSeparatorPlatePiston</zorder>
+      <zorder>bIConePusher1PistonEnd</zorder>
+      <zorder>bQConePusher1Piston</zorder>
+      <zorder>bIConePusher1PistonHome</zorder>
+      <zorder>bIBagPusherPistonEnd</zorder>
+      <zorder>bQBagPusherForwardPiston</zorder>
+      <zorder>bIBagPusherPistonHome</zorder>
+      <zorder>bQConePusher2Piston</zorder>
+      <zorder>bQColumnReversePiston</zorder>
+      <zorder>bIColumnReversePistonEnd</zorder>
+      <zorder>bIColumnReversePistonHome</zorder>
+      <zorder>bIColumnStopperPistonEnd</zorder>
+      <zorder>bIColumnStopperPistonHome</zorder>
+      <zorder>bQColumnStopperPiston</zorder>
+      <zorder>bIBagHolderOn_2</zorder>
+      <zorder>bIBagHolderOn_1</zorder>
+      <zorder>bIBagUpDown50PistonHome</zorder>
+      <zorder>bQBag50UpPiston</zorder>
+      <zorder>bIBagUpDown50PistonEnd</zorder>
+      <zorder>bIBagUpDown180PistonHome</zorder>
+      <zorder>bQBagUpDown180Piston</zorder>
+      <zorder>bIBagUpDown180PistonEnd</zorder>
+      <zorder>bQBagTiltingForwardPiston</zorder>
+      <zorder>bIBagTiltingPistonEnd</zorder>
+      <zorder>bIBagTiltingPistonHome</zorder>
+      <zorder>bQBagRowHolderPiston</zorder>
+      <zorder>Ret_A_Wt</zorder>
+      <zorder>bQRetB_WeightOk</zorder>
+      <zorder>bQRetA_WeightOk</zorder>
+      <zorder>bQFeedingConveyorMotor</zorder>
       <zorder>layoutWidget_6</zorder>
-      <zorder>bIConeCountLimitSwitch_3</zorder>
-      <zorder>bIConeCountLimitSwitch_4</zorder>
+      <zorder>bIRetA_ConeCrossLimitSwitch</zorder>
+      <zorder>bIRetB_ConeCrossLimitSwitch</zorder>
+      <zorder>bICFCConeStopSensor_3</zorder>
+      <zorder>bIConeOrientationTopLimitSwitch</zorder>
+      <zorder>bIRetB_End</zorder>
+      <zorder>bIRetB_Home</zorder>
+      <zorder>bIRetB_Middle</zorder>
+      <zorder>bIRetA_Home</zorder>
+      <zorder>bIRetA_End</zorder>
+      <zorder>bIRetA_Middle</zorder>
+      <zorder>bIFilmTensionRodEnd</zorder>
+      <zorder>bIFilmTensionRodHome</zorder>
+      <zorder>bASealingTrigged_1</zorder>
+      <zorder>bISealingSensor</zorder>
+      <zorder>bQTransferConveyorMotor</zorder>
+      <zorder>bQWrappingConveyorMotor</zorder>
+      <zorder>bIBagEmptyCheck_Sensor</zorder>
      </widget>
     </item>
    </layout>
